@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cart — Navi+</title>
+	<meta name="description" content="Review your cart. This is a demo page without backend logic.">
+	<meta name="theme-color" content="#0d6efd">
+
+	<!-- Open Graph -->
+	<meta property="og:title" content="Cart — Navi+">
+	<meta property="og:description" content="Review your cart. This is a demo page without backend logic.">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://localhost:4000/cart.html">
+	<meta property="og:image" content="/assets/img/og-image.svg">
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+	<!-- Bootstrap (latest stable) -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<!-- Bootstrap Icons -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+	<!-- App styles -->
+	<link rel="stylesheet" href="/assets/css/styles.css">
+	<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+
+	<!-- JSON-LD: Organization -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": "Navi+",
+		"url": "https://naviplus.io/",
+		"logo": "https://naviplus.io/favicon.ico",
+		"sameAs": [
+			"https://www.facebook.com/",
+			"https://www.linkedin.com/"
+		]
+	}
+	</script>
+
+
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
+		<div class="container">
+			<a class="navbar-brand d-flex align-items-center gap-2" href="/">
+				<span class="brand-icon d-inline-flex align-items-center justify-content-center rounded-3">
+					<i class="bi bi-compass-fill"></i>
+				</span>
+				<strong>Navi+</strong>
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="mainNav">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+					<li class="nav-item"><a class="nav-link" href="/#solutions">Solutions</a></li>
+					<li class="nav-item"><a class="nav-link" href="/#features">Features</a></li>
+					<li class="nav-item"><a class="nav-link" href="/#customers">Customers</a></li>
+					<li class="nav-item"><a class="nav-link" href="/#pricing">Pricing</a></li>
+					<li class="nav-item"><a class="nav-link" href="/#faq">FAQ</a></li>
+					<li class="nav-item"><a class="nav-link" href="/category.html">Products</a></li>
+					<li class="nav-item"><a class="nav-link" href="/search.html">Search</a></li>
+					<li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
+					<li class="nav-item ms-lg-3">
+						<a class="btn btn-primary" href="/contact.html">Get a demo</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+
+	<header class="py-5 py-lg-6 bg-gradient">
+		<div class="container">
+			<div class="row align-items-center g-4">
+				<div class="col-lg-8">
+					<h1 class="display-5 fw-bold lh-tight mb-3">Your Cart</h1>
+					<p class="lead text-secondary">Demo cart powered by Bootstrap UI. No backend logic.</p>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="py-5">
+		<div class="container">
+			<div class="row g-4">
+				<div class="col-lg-8">
+					<div class="table-responsive border rounded-3">
+						<table class="table align-middle mb-0">
+							<thead class="table-light">
+								<tr>
+									<th>Product</th>
+									<th>Price</th>
+									<th>Qty</th>
+									<th class="text-end">Subtotal</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<div class="d-flex align-items-center gap-3">
+											<img src="https://images.unsplash.com/photo-1512499617640-c2f999098c32?q=80&w=200&auto=format&fit=crop" class="rounded" alt="Modern Hoodie" width="56" height="56">
+											<div>
+												<div class="fw-semibold">Modern Hoodie</div>
+												<div class="text-secondary small">Size M · Black</div>
+											</div>
+										</div>
+									</td>
+									<td>$59.00</td>
+									<td>1</td>
+									<td class="text-end">$59.00</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="d-flex align-items-center gap-3">
+											<img src="https://images.unsplash.com/photo-1520975922203-b144a129fde7?q=80&w=200&auto=format&fit=crop" class="rounded" alt="Everyday Tee" width="56" height="56">
+											<div>
+												<div class="fw-semibold">Everyday Tee</div>
+												<div class="text-secondary small">Size L · White</div>
+											</div>
+										</div>
+									</td>
+									<td>$25.00</td>
+									<td>2</td>
+									<td class="text-end">$50.00</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="p-3 border rounded-3 bg-white">
+						<div class="d-flex justify-content-between">
+							<span>Subtotal</span><strong>$109.00</strong>
+						</div>
+						<div class="d-flex justify-content-between text-secondary">
+							<span>Shipping</span><span>Calculated at checkout</span>
+						</div>
+						<hr>
+						<div class="d-flex justify-content-between">
+							<span>Total</span><strong>$109.00</strong>
+						</div>
+						<div class="d-grid gap-2 mt-3">
+							<a class="btn btn-primary" href="#">Checkout</a>
+							<a class="btn btn-outline-secondary" href="/category.html">Continue shopping</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<footer class="py-5 border-top">
+		<div class="container">
+			<div class="row g-4">
+				<div class="col-md-5">
+					<div class="d-flex align-items-center gap-2 mb-2">
+						<span class="brand-icon d-inline-flex align-items-center justify-content-center rounded-3">
+							<i class="bi bi-compass-fill"></i>
+						</span>
+						<strong class="fs-5">Navi+</strong>
+					</div>
+					<p class="text-secondary">A modern commerce platform to help businesses grow faster and sustainably.</p>
+					<div class="d-flex gap-3">
+						<a class="text-secondary" href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+						<a class="text-secondary" href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+						<a class="text-secondary" href="#" aria-label="X"><i class="bi bi-twitter-x"></i></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="fw-semibold mb-2">Solutions</div>
+					<ul class="list-unstyled text-secondary">
+						<li><a class="link-secondary text-decoration-none" href="/#solutions">OMS</a></li>
+						<li><a class="link-secondary text-decoration-none" href="/#solutions">WMS</a></li>
+						<li><a class="link-secondary text-decoration-none" href="/#solutions">Payments</a></li>
+						<li><a class="link-secondary text-decoration-none" href="/#solutions">BI</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<div class="fw-semibold mb-2">Company</div>
+					<ul class="list-unstyled text-secondary">
+						<li><a class="link-secondary text-decoration-none" href="/about.html">About</a></li>
+						<li><a class="link-secondary text-decoration-none" href="/#pricing">Pricing</a></li>
+						<li><a class="link-secondary text-decoration-none" href="/contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<div class="fw-semibold mb-2">Legal</div>
+					<ul class="list-unstyled text-secondary">
+						<li><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+						<li><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="pt-4 mt-4 border-top d-flex flex-column flex-md-row justify-content-between text-secondary small">
+				<div>© <span id="year"></span> Navi+. All rights reserved.</div>
+				<div>Made with Bootstrap</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<!-- App JS -->
+	<script src="/assets/js/main.js"></script>
+
+
+
+</body>
+</html>
+
+

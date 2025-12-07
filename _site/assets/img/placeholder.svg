@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+	<defs>
+		<linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+			<stop offset="0" stop-color="#e9f1ff"/>
+			<stop offset="1" stop-color="#f8fbff"/>
+		</linearGradient>
+	</defs>
+	<rect width="1200" height="800" fill="url(#g)"/>
+	<g fill="none" stroke="#d0e2ff">
+		<rect x="80" y="80" width="1040" height="640" rx="24"/>
+		<path d="M120 640l220-220 160 160 240-240 240 240" stroke-width="4"/>
+		<circle cx="340" cy="360" r="48" fill="#d0e2ff" stroke="none"/>
+	</g>
+	<g font-family="Plus Jakarta Sans, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" fill="#6c757d" text-anchor="middle">
+		<text x="600" y="390" font-size="28" font-weight="700">Image placeholder</text>
+		<text x="600" y="430" font-size="18">Content served locally to avoid external image errors</text>
+	</g>
+</svg>
+
+

@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact — Navi+</title>
+	<meta name="description" content="Contact Navi+ sales and support. Request a demo or talk to our team.">
+	<meta name="theme-color" content="#0d6efd">
+
+	<!-- Open Graph -->
+	<meta property="og:title" content="Contact — Navi+">
+	<meta property="og:description" content="Contact Navi+ sales and support. Request a demo or talk to our team.">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://localhost:4000/contact.html">
+	<meta property="og:image" content="/assets/img/og-image.svg">
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+	<!-- Bootstrap (latest stable) -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<!-- Bootstrap Icons -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+	<!-- App styles -->
+	<link rel="stylesheet" href="/assets/css/styles.css">
+	<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+
+	<!-- JSON-LD: Organization -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": "Navi+",
+		"url": "https://naviplus.io/",
+		"logo": "https://naviplus.io/favicon.ico",
+		"sameAs": [
+			"https://www.facebook.com/",
+			"https://www.linkedin.com/"
+		]
+	}
+	</script>
+
+
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
+		<div class="container">
+			<a class="navbar-brand d-flex align-items-center gap-2" href="/">
+				<span class="brand-icon d-inline-flex align-items-center justify-content-center rounded-3">
+					<i class="bi bi-compass-fill"></i>
+				</span>
+				<strong>Navi+</strong>
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="mainNav">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+					<li class="nav-item"><a class="nav-link" href="/#solutions">Solutions</a></li>
+					<li class="nav-item"><a class="nav-link" href="/#features">Features</a></li>
+					<li class="nav-item"><a class="nav-link" href="/#customers">Customers</a></li>
+					<li class="nav-item"><a class="nav-link" href="/#pricing">Pricing</a></li>
+					<li class="nav-item"><a class="nav-link" href="/#faq">FAQ</a></li>
+					<li class="nav-item"><a class="nav-link" href="/category.html">Products</a></li>
+					<li class="nav-item"><a class="nav-link" href="/search.html">Search</a></li>
+					<li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
+					<li class="nav-item ms-lg-3">
+						<a class="btn btn-primary" href="/contact.html">Get a demo</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+
+	<header class="py-5 py-lg-6 bg-gradient">
+		<div class="container">
+			<div class="row align-items-center g-4">
+				<div class="col-lg-8">
+					<h1 class="display-5 fw-bold lh-tight mb-3">Contact us</h1>
+					<p class="lead text-secondary">Have questions or want a tailored demo? Send a message and the team will get back shortly.</p>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="py-5">
+		<div class="container">
+			<div class="row g-5">
+				<div class="col-lg-7">
+					<div class="card border-0 shadow-sm">
+						<div class="card-body p-4">
+							<h2 class="h4 mb-3">Send us a message</h2>
+							<form method="post" action="#" onsubmit="event.preventDefault(); window.location='mailto:hello@naviplus.io';">
+								<div class="row g-3">
+									<div class="col-md-6">
+										<label class="form-label" for="name">Full name</label>
+										<input class="form-control" id="name" name="name" type="text" placeholder="Jane Doe" required>
+									</div>
+									<div class="col-md-6">
+										<label class="form-label" for="email">Work email</label>
+										<input class="form-control" id="email" name="email" type="email" placeholder="jane@company.com" required>
+									</div>
+									<div class="col-md-6">
+										<label class="form-label" for="company">Company</label>
+										<input class="form-control" id="company" name="company" type="text" placeholder="Company Inc.">
+									</div>
+									<div class="col-md-6">
+										<label class="form-label" for="size">Team size</label>
+										<select class="form-select" id="size" name="size">
+											<option value="">Select</option>
+											<option>1–10</option>
+											<option>11–50</option>
+											<option>51–200</option>
+											<option>200+</option>
+										</select>
+									</div>
+									<div class="col-12">
+										<label class="form-label" for="message">Message</label>
+										<textarea class="form-control" id="message" name="message" rows="5" placeholder="Tell us about your goals and current systems..." required></textarea>
+									</div>
+									<div class="col-12">
+										<button class="btn btn-primary" type="submit">Submit</button>
+										<a class="btn btn-outline-secondary ms-2" href="mailto:hello@naviplus.io">Email us directly</a>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5">
+					<div class="h-100 p-4 border rounded-3 bg-white">
+						<h2 class="h5 mb-3">Contact details</h2>
+						<ul class="list-unstyled text-secondary mb-4">
+							<li class="mb-2"><i class="bi bi-envelope me-2 text-primary"></i>hello@naviplus.io</li>
+							<li class="mb-2"><i class="bi bi-telephone me-2 text-primary"></i>+84 000 000 000</li>
+							<li class="mb-2"><i class="bi bi-geo-alt me-2 text-primary"></i>HCMC, Vietnam</li>
+						</ul>
+						<div class="ratio ratio-16x9 border rounded-3 bg-light d-flex align-items-center justify-content-center">
+							<div class="text-secondary">Map placeholder</div>
+						</div>
+						<div class="mt-3 small text-secondary">Prefer a live conversation? Book a slot via email — we’re happy to talk.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+ 
+
+
+
+
+	<footer class="py-5 border-top">
+		<div class="container">
+			<div class="row g-4">
+				<div class="col-md-5">
+					<div class="d-flex align-items-center gap-2 mb-2">
+						<span class="brand-icon d-inline-flex align-items-center justify-content-center rounded-3">
+							<i class="bi bi-compass-fill"></i>
+						</span>
+						<strong class="fs-5">Navi+</strong>
+					</div>
+					<p class="text-secondary">A modern commerce platform to help businesses grow faster and sustainably.</p>
+					<div class="d-flex gap-3">
+						<a class="text-secondary" href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+						<a class="text-secondary" href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+						<a class="text-secondary" href="#" aria-label="X"><i class="bi bi-twitter-x"></i></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="fw-semibold mb-2">Solutions</div>
+					<ul class="list-unstyled text-secondary">
+						<li><a class="link-secondary text-decoration-none" href="/#solutions">OMS</a></li>
+						<li><a class="link-secondary text-decoration-none" href="/#solutions">WMS</a></li>
+						<li><a class="link-secondary text-decoration-none" href="/#solutions">Payments</a></li>
+						<li><a class="link-secondary text-decoration-none" href="/#solutions">BI</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<div class="fw-semibold mb-2">Company</div>
+					<ul class="list-unstyled text-secondary">
+						<li><a class="link-secondary text-decoration-none" href="/about.html">About</a></li>
+						<li><a class="link-secondary text-decoration-none" href="/#pricing">Pricing</a></li>
+						<li><a class="link-secondary text-decoration-none" href="/contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<div class="fw-semibold mb-2">Legal</div>
+					<ul class="list-unstyled text-secondary">
+						<li><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+						<li><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="pt-4 mt-4 border-top d-flex flex-column flex-md-row justify-content-between text-secondary small">
+				<div>© <span id="year"></span> Navi+. All rights reserved.</div>
+				<div>Made with Bootstrap</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<!-- App JS -->
+	<script src="/assets/js/main.js"></script>
+
+
+
+</body>
+</html>
+
+
