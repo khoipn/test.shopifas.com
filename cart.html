@@ -1,0 +1,87 @@
+---
+layout: default
+title: "Cart — Navi+"
+description: "Review your cart. This is a demo page without backend logic."
+---
+
+	<header class="py-5 py-lg-6 bg-gradient">
+		<div class="container">
+			<div class="row align-items-center g-4">
+				<div class="col-lg-8">
+					<h1 class="display-5 fw-bold lh-tight mb-3">Your Cart</h1>
+					<p class="lead text-secondary">Demo cart powered by Bootstrap UI. No backend logic.</p>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="py-5">
+		<div class="container">
+			<div class="row g-4">
+				<div class="col-lg-8">
+					<div class="table-responsive border rounded-3">
+						<table class="table align-middle mb-0">
+							<thead class="table-light">
+								<tr>
+									<th>Product</th>
+									<th>Price</th>
+									<th>Qty</th>
+									<th class="text-end">Subtotal</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<div class="d-flex align-items-center gap-3">
+											<img src="https://images.unsplash.com/photo-1512499617640-c2f999098c32?q=80&w=200&auto=format&fit=crop" class="rounded" alt="Modern Hoodie" width="56" height="56">
+											<div>
+												<div class="fw-semibold">Modern Hoodie</div>
+												<div class="text-secondary small">Size M · Black</div>
+											</div>
+										</div>
+									</td>
+									<td>$59.00</td>
+									<td>1</td>
+									<td class="text-end">$59.00</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="d-flex align-items-center gap-3">
+											<img src="https://images.unsplash.com/photo-1520975922203-b144a129fde7?q=80&w=200&auto=format&fit=crop" class="rounded" alt="Everyday Tee" width="56" height="56">
+											<div>
+												<div class="fw-semibold">Everyday Tee</div>
+												<div class="text-secondary small">Size L · White</div>
+											</div>
+										</div>
+									</td>
+									<td>$25.00</td>
+									<td>2</td>
+									<td class="text-end">$50.00</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="p-3 border rounded-3 bg-white">
+						<div class="d-flex justify-content-between">
+							<span>Subtotal</span><strong>$109.00</strong>
+						</div>
+						<div class="d-flex justify-content-between text-secondary">
+							<span>Shipping</span><span>Calculated at checkout</span>
+						</div>
+						<hr>
+						<div class="d-flex justify-content-between">
+							<span>Total</span><strong>$109.00</strong>
+						</div>
+						<div class="d-grid gap-2 mt-3">
+							<a class="btn btn-primary" href="#">Checkout</a>
+							<a class="btn btn-outline-secondary" href="{{ '/category.html' | relative_url }}">Continue shopping</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
